@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #999;
+	line-height:14px;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#8CC63F;
+	margin:10px 0px 10px 0px;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#8CC63F;
+	margin:0px 0px 10px 0px;
+}
+.nav{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	line-height:14px;
+}
+.nav a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.nav a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav a:hover {
+	text-decoration: none;
+	color: #8CC63F;
+}
+.nav a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav_container{
+	background-image:url(../images/nav_bg.gif);
+	background-repeat:repeat-x;
+	height:30px;
+	margin:0px 0px 10px 0px;
+}
+.nav_item{
+	float:left;
+	padding:7px 10px 10px 10px;
+	color:#FFF;
+}
+.nav_divider{
+	float:left;
+	padding:0px;
+}
+.top_left{
+	padding:0px;
+	width:110px;
+	height:105px;
+	background-color:#333;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+}
+.top_right{
+	padding:0px;
+	width:150px;
+	height:105px;
+	background-color: #333;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+	
+/* blog */
+
+.main_content{
+	background-color:#FFF;
+	padding:20px;
+}
+.blog_right{
+	padding:0px 0px 10px 10px;
+}
+.blog_right_item{
+	padding:0px 0px 10px 0px;
+}
+
+
+/* people */
+
+.people{
+	background-color:#FFF;
+	padding:5px;
+}
+.people_content{
+	background-color:#FFF;
+	padding:5px;
+}
+
+/* charities */
+
+.charities_right{
+	padding:0px 0px 10px 10px;
+}
+.charities_right_item{
+	background-image: url(../images/charities_nav_bg.gif);
+	background-repeat:repeat-y;
+	height:35px;
+	margin:0px 0px 10px 0px;
+}
+.charities{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	line-height:14px;
+	padding:10px;
+}
+.charities a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.charities a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+.charities a:hover {
+	text-decoration: none;
+	color: #8CC63F;
+}
+.charities a:active {
+	text-decoration: none;
+	color: #ffffff;
+}

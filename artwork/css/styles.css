@@ -32,6 +32,11 @@ h2{
 	text-decoration: none;
 }
 
+.read-more {
+  color: #8CC63F;
+  text-decoration: none;
+}
+
 hr {
   background-color: #8CC63F;
 }

@@ -61,26 +61,10 @@
 				<!-- end header -->
 				<!-- start nav -->
 				<div id='navbar' class="nav_container span-22 last">
-					<div class="nav_item">
-						<p class="nav">
-							<a href="index.html">home</a>
-						</p>
-					</div>
-					<div class="nav_divider">
-						<img src="<?php bloginfo('template_directory'); ?>/images/nav_divider.gif" width="3" height="30" />
-					</div>
-					<div class="nav_item">
-						<p class="nav">
-							<a href="people.html">people</a>
-						</p>
-					</div>
-					<div class="nav_divider">
-						<img src="<?php bloginfo('template_directory'); ?>/images/nav_divider.gif" width="3" height="30" />
-					</div>
-					<div class="nav_item">
-						<p class="nav">
-							<a href="charities_1.html">charities</a>
-						</p>
-					</div>
+					<ul>
+					<li><a href='/'>Home</a></li>
+										</ul>
+					<?php wp_nav_menu(); ?>
+
 				</div>
 				<!-- end nav  -->

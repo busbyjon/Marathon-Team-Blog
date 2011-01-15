@@ -37,12 +37,19 @@ h2{
 	margin:0px 0px 10px 0px;
 }
 
-.blog_right_item {
+.blog_right_item, .blog_right li a {
  	font-family:Arial, Helvetica, sans-serif;
 	font-size:11px;
 	color: #ffffff;
 	line-height:14px; 
 	text-decoration: none;
+
+}
+
+.blog_right ul {
+  	list-style-type:none;
+  	margin:0;
+  	padding:0;
 }
 
 .read-more {
@@ -54,44 +61,46 @@ hr {
   background-color: #8CC63F;
 }
 
-.nav{
+#navbar ul li{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:11px;
 	color: #ffffff;
 	line-height:14px;
+	float:left;
+	padding:12px 10px 10px 10px;
+	color:#FFF;
 }
 
-.nav a:link {
+#navbar ul {
+  list-style-type:none;
+	margin:0;
+	padding-left:0;
+}
+
+#navbar ul li a:link {
 	color: #ffffff;
 	text-decoration: none;
 }
-.nav a:visited {
+#navbar ul li a:visited {
 	text-decoration: none;
 	color: #ffffff;
 }
-.nav a:hover, .blog_right_item:hover {
+#navbar ul li a:hover, .blog_right_item:hover {
 	text-decoration: none;
 	color: #8CC63F;
 }
-.nav a:active {
+#navbar ul li a:active {
 	text-decoration: none;
 	color: #ffffff;
 }
+
 .nav_container{
 	background-image:url(images/nav_bg.gif);
 	background-repeat:repeat-x;
 	height:30px;
 	margin:0px 0px 10px 0px;
 }
-.nav_item{
-	float:left;
-	padding:7px 10px 10px 10px;
-	color:#FFF;
-}
-.nav_divider{
-	float:left;
-	padding:0px;
-}
+
 .top_left{
 	padding:0px;
 	width:110px;

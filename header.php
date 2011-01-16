@@ -43,7 +43,7 @@
 					</div>
 					<div id='widget-area' class='prepend-1 append-1 span-10'>
 						<div class="span-3">
-							<div class="top_left"></div>
+							&nbsp;
 						</div>
 						<div class="span-7 last">
 							&nbsp;
@@ -54,7 +54,11 @@
 							<a href='#'><img src="<?php bloginfo('template_directory'); ?>/images/btn_donate_large.gif" width="80" height="105" /></a>
 						</div>
 						<div class="span-4 last">
-							<div class="top_right"></div>
+							<div class="top_right">
+								<div class='widget-content'><span class='donated'>£1,000</span>
+														<span class='sofar'>Raised To Date </span>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

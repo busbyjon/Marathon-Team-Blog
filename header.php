@@ -55,7 +55,7 @@
 						</div>
 						<div class="span-4 last">
 							<div class="top_right">
-								<div class='widget-content'><span class='donated'>£1,000</span>
+								<div class='widget-content'><span class='donated'>£<?php echo get_fundraising_total() ?></span>
 														<span class='sofar'>Raised To Date </span>
 								</div>
 							</div>
